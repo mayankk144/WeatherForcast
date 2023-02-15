@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forcast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="search">
+            <button class="btn" type="submit" id="submit">
+                <span><img class="uil" src="search.png"></span>
+            </button>
+            <input class="input" type="text" placeholder="Enter City name" id="city">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="upper">
+            <div class="upper-left-current">
+                <div class="place">
+                    <img class="location" src="location-removebg-preview.png">
+                    <span id="cityname"></span>
+                </div>
+                <span>APRIL 15 , 12:30 PM</span>
+                <h3 class="temp"><span id="temp"></span>&#8451;</h3>
+            </div>
+            <div class="upper-pic">
+                <img src="rainy.png">
+            </div>
+            <div class="upper-right-place">
+                <span>humidity : <span id="humidity"></span></span>
+                <span>cloud pct : <span id="cloud_pct"></span></span>
+                <span>wind degres : <span id="wind_degrees"></span></span>
+                <span>wind speed : <span id="wind_speed"></span></span>
+                <span>sunrise : <span id="sunrise"></span></span>
+                <span>sunset : <span id="sunset"></span></span>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="day1 day">
+                <h3>Monday</h3>
+                <img class="sunrise" src="cloud-sun.png">
+                <span>15&#8451;</span>
+                <span>15&#8451;</span>
+            </div>
+            <div class="day2 day">
+                <h3>Tuesday</h3>
+                <img class="sunrise" src="cloud-sun.png">
+                <span>15&#8451;</span>
+                <span>15&#8451;</span>
+            </div>
+            <div class="day3 day">
+                <h3>Wednesday</h3>
+                <img class="sunrise" src="cloud-sun.png">
+                <span>15&#8451;</span>
+                <span>15&#8451;</span>
+            </div>
+            <div class="day4 day">
+                <h3>Thursday</h3>
+                <img class="sunrise" src="cloud-sun.png">
+                <span>15&#8451;</span>
+                <span>15&#8451;</span>
+            </div>
+            <div class="day5 day">
+                <h3>Friday</h3>
+                <img class="sunrise" src="cloud-sun.png">
+                <span>15&#8451;</span>
+                <span>15&#8451;</span>
+            </div>
+            <div class="day6 day">
+                <h3>Saturday</h3>
+                <img class="sunrise" src="cloud-sun.png">
+                <span>15&#8451;</span>
+                <span>15&#8451;</span>
+            </div>
+            <div class="day7 day">
+                <h3>Sunday</h3>
+                <img class="sunrise" src="cloud-sun.png">
+                <span>15&#8451;</span>
+                <span>15&#8451;</span>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
