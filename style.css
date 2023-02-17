@@ -1,9 +1,12 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap'); */
+
 * {
     box-sizing: border-box;
     margin: 0;
 }
 
 body {
+    /* font-family: 'Poppins',sans-serif; */
     background-color: rgba(40, 68, 73,0.95);
 }
 
@@ -174,6 +177,7 @@ body {
     gap: 2px;
     margin:15px;
     padding-top: 100px;
+    width: 100%;
 }
 
 .day {
@@ -181,7 +185,7 @@ body {
     color: white;
     padding: 20px;
     /* background:transparent; */
-    height: fit-content;
+    height:90%;
     width: 11%;
     display: flex;
     flex-direction: column;
@@ -191,7 +195,8 @@ body {
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
     /* Black w/opacity/see-through */
-
+    border-radius: 2px;
+    text-align: center;
 
 }
 
@@ -245,4 +250,38 @@ body {
     .lower{
         flex-wrap: wrap;
     }
+}
+
+.chartdiv{
+    /* background-color: white; */
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.subchart{
+    padding: 50px;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+.tag{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.day:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.chart{
+    width: 90%;
+    margin: auto;
+    /* background-color: rgba(0, 0, 0, 0.4) */
 }
